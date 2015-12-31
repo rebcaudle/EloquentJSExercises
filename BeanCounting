@@ -1,0 +1,14 @@
+//This function takes a string as its only argument and returns a number 
+//that indicates how many 'b' characters are in the string
+
+
+function countChar(string, charTest){
+	counter = 0;
+	for(i = 0; i <= string.length-1; i++) {
+		if (charTest == string.charAt(i)){
+			counter++;
+		}
+	}
+	return counter;
+}			
+	console.log(countChar('Brown bear, brown bear, what do you see', 'b'));	
