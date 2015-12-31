@@ -1,0 +1,12 @@
+//first attempt
+var triangle = ""; 
+while (triangle.length < 7) {		
+	triangle += "#";
+	//triangle = triangle + "#"
+	console.log (triangle);
+}	
+
+//more eloquent 
+for (var triangle = "#"; triangle.length < 8; triangle = triangle + "#") {
+	console.log(triangle);
+}
